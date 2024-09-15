@@ -2,3 +2,84 @@ Python Introduction September 2024
 
 Toby Dussek
 
+9:30  start
+11:00 morning break
+12:30 lunch until 1:30
+3:00  afternoon break
+4:30  end
+
+All my code will be here: https://github.com/onionmccabbage/PythonIntroSept20124
+
+Monday
+- Welcome and intros
+- where to write code: module (just a file) or immediate python
+- architecture, structure, and professional code best practice
+- print() and input()
+- maths operators and data types
+- indentation
+- immutable strings
+- print formatting
+- lists and tuples
+- memory efficiency
+- identifiers
+- boolean True and False
+- type and type conversion
+- the if statement for conditional logic
+- for, while, break and pass
+- validate input
+- string manipulation
+- after lunch review exercise
+- dictionaries (non-numeric indexed iterable collections)
+- import, pip, libraries and modules
+- functions
+- if __name__ == '__main__'
+
+Tuesday
+- how to access course recordings
+  see course website, authenticate with: neueda c0nygre
+  only available for a week or so
+  BIG files
+- quick review of where we got to
+- range, generators
+- comprehensions
+- passing command-line arguments (which are ALWAYS strings)
+- to add libraries to python:
+  - python -m ensurepip
+  - python –m pip install requests (or any other library you need)
+- using requests (to access web API via HTTP)
+- strings with triple quotes
+- exception handling (try-except etc.)
+- debug tools
+- review exercise
+- File input and output
+
+Wednesday
+- brief review so far
+- functions, *args, **kwargs  
+- functions live in classes, which live in modules which live in packages
+- show ternary
+- PEP8 style guide
+- custom generator and yield
+- global and local scope 
+- data modelling structures: 
+    use built-in structures until they do not suit the purpose (then use classes)
+- Objects and Classes (OOP)
+- __slots__
+- get/set as property decorators @property
+- name mangling (__) and slots
+- properties, methods, __str__
+- intrinsic attributes: __doc__ etc.
+- special operators and overriding
+- inheritance
+- review exercise
+
+
+- where to go from here:
+  https://learnpython.org/
+  https://pynative.com/python-exercises-with-solutions/
+  the next courses: advanced python then further advanced python
+- end of course feedback
+
+Links
+- Python official site https://python.org
+- PEP8 style guide https://www.python.org/dev/peps/pep-0008/

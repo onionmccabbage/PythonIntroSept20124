@@ -10,7 +10,7 @@ print(odd_nums)
 
 # we can use these with boolean checks
 r = (4,5,6,88,2,9,33,42)
-for _ in r:
+for _ in r: # _ is a common enough identifier for an iterable
     '''check if it is even or odd'''
     if _ in even_nums:
         print(f'{_} is even')

@@ -5,9 +5,14 @@ if 3>2: # the colon indicates the start of a block of code
 
 # often used to declare a function
 def doMaths(x,y): # colon indicates the start of a code block
-    print(x+y)
-    print(x-y)
-    print(x**y)
+    if x>y: # here is a new code block
+        print(x+y)
+    elif x<y: # else if
+        print(x-y)
+    else:
+        print(x**y)
+
 # end of code block (because we no longer indent)
 doMaths(3,2)
 doMaths(-3,-2)
+doMaths(3,3)

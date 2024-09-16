@@ -17,3 +17,8 @@ l.pop() # pop off the top-most value
 print(l, type(l))
 # we may slice a list or a tuple
 print(t[0:4], l[2:4])
+
+# we can iterate over indexed collections
+
+# the dictionary
+

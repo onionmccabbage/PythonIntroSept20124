@@ -50,6 +50,7 @@ for (k,v) in my_dict.items():
     # print(k, v, type(v))
     print ( f'{k} contains {v} which is a {type(v)}' )
     # logic allows for 'or' 'and' etc.
+    # using == is functionally identical to using 'is' - no performance difference
     if type(v)==tuple or type(v)==list: # check if we have a tuple
         for _ in v:
             print(_)

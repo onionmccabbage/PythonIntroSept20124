@@ -34,6 +34,8 @@ Monday
 - functions
 - if __name__ == '__main__'
 
+q - use with Django
+
 Tuesday
 - how to access course recordings
   see course website, authenticate with: neueda c0nygre

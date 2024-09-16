@@ -27,7 +27,7 @@ Monday
 > boolean True and False
 > type and type conversion
 > the if statement for conditional logic
-- for, while, break and pass
+> for, while, break and pass
 > validate input
 > string manipulation
 > using random

@@ -15,8 +15,12 @@ def checkIsOdd(n): # triple quotes are often used for DOCSTRING
 def checkIsSquare(m):
     '''Here we return True if m is a square number, otherwise return False'''
     pass # this is a convenient placeholder
-    if m**0.5 == int(m**0.5): # raise to power of 0.5 is same as square root
-        return True
+    # we need to check it is not a negative number
+    if type(m) in (int, float) and m>0:
+        if m**0.5 == int(m**0.5): # raise to power of 0.5 is same as square root
+            return True
+        else:
+            return False
     else:
         return False
 

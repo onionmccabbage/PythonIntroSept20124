@@ -42,3 +42,14 @@ my_dict = {'n':'Floella', 'age':42, 'auth':'admin', 'online':False}
 # we may add further key-value pairs
 my_dict['skills'] = ('CI', 'Kubernetes', 'Python')
 print(my_dict, type(my_dict))
+# we may access members of the dict
+print(my_dict['n'], my_dict['skills'][2])
+# we may iterate over a dictionary (even though it is NOT indexed)
+for (k,v) in my_dict.items():
+    # we may choose to format the printed output
+    # print(k, v, type(v))
+    print ( f'{k} contains {v} which is a {type(v)}' )
+    # logic allows for 'or' 'and' etc.
+    if type(v)==tuple or type(v)==list: # check if we have a tuple
+        for _ in v:
+            print(_)

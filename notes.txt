@@ -28,8 +28,8 @@ Monday
 - for, while, break and pass
 > validate input
 > string manipulation
-- using random
-- after lunch review exercise
+> using random
+> after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
 - import, pip, libraries and modules
 - functions

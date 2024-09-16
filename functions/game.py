@@ -16,3 +16,12 @@ if __name__ == '__main__':
     squares = map(checkIsSquare, values)
     for _ in squares:
         print(_, end=', ')
+    # in addition to 'map' we can also use 'filter'
+    # filter will return just those members wherehte function gives us True
+    just_odds = filter(checkIsOdd, values)
+    # a filter object can be iterated (like a range object)
+    for _ in just_odds:
+        print(_)
+    just_sq = filter(checkIsSquare, values)
+    for _ in just_sq:
+        print(_)

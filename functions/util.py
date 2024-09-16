@@ -6,7 +6,7 @@ print(powers)
 def checkIsOdd(n): # triple quotes are often used for DOCSTRING
     '''validate that n is an integer, 
     then return True or False depending on if it is odd'''
-    print(f'Python calls this module {__name__}')
+    # print(f'Python calls this module {__name__}')
     if type(n) == int and n%2 !=0: # an odd integer
         return True
     else:

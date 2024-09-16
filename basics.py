@@ -36,3 +36,5 @@ s = 'Hello and welcome to Python' # s now points to a different memory location
 print( s[0:7] ) # [start:stop-before]
 # mini challenge - just find the word 'welcome'
 print( s[10:17] )
+print( s[0:20:2] ) # [start:stop-before:step]
+print( s[::-1] ) # step backwards!!

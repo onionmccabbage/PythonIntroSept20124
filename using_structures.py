@@ -19,6 +19,26 @@ print(l, type(l))
 print(t[0:4], l[2:4])
 
 # we can iterate over indexed collections
+my_string = 'iterable collection'
+for c in my_string:
+    print(c) # NB by default the 'print' statement will always add a new-line
+    if c==' ': # == check for equality
+        print('thats a space')
 
-# the dictionary
+# we may also iterate over list and tuple
+for i in l: # the colon is essential
+    print(i)
+for _ in t: # using _ is quite common in Python
+    print(_)
 
+# When to use list or tuple:
+# by default, we would use a tuple, but if we find members need to mutate, we use a list
+# A tuple is very slightly more efficient than a list
+
+# the dictionary: a non-indexed collection of key-value pairs
+# NB we usually declare the keys as strings
+# the values may be ANY data type, even other collections
+my_dict = {'n':'Floella', 'age':42, 'auth':'admin', 'online':False}
+# we may add further key-value pairs
+my_dict['skills'] = ('CI', 'Kubernetes', 'Python')
+print(my_dict, type(my_dict))

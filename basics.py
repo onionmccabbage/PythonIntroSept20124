@@ -21,3 +21,18 @@ c = True # careful True, False, None have initial capital letter
 d = False
 e = None
 
+# collection data-types
+# string, tuple, list, dictionary
+# a string is an immutable indexed collection of characters
+s = 'hello and welcome to Python'
+print(s, print(type(s)))
+# All indexed collections can be sliced
+print( s[0] ) # member zero of the string 
+print( s[4] ) # 'o'
+# s[0] = 'H' # this will fail - we are not allowed to change parts of a string
+# we can of course assign a variable to adiferent string
+s = 'Hello and welcome to Python' # s now points to a different memory location
+# we can use slicing to grab any sub-section of an indexed collection
+print( s[0:7] ) # [start:stop-before]
+# mini challenge - just find the word 'welcome'
+print( s[10:17] )

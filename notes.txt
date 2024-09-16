@@ -34,7 +34,7 @@ Monday
 > after lunch review exercise
 > dictionaries (non-numeric indexed iterable collections)
 - import, pip, libraries and modules
-- functions
+> functions
 > if __name__ == '__main__'
 
 q - use with Django

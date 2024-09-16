@@ -10,10 +10,12 @@ Toby Dussek
 
 All my code will be here: https://github.com/onionmccabbage/PythonIntroSept20124
 
+Python is written in C
+
 Monday
 > Welcome and intros
 - where to write code: module (just a file) or immediate python
-- architecture, structure, and professional code best practice
+> architecture, structure, and professional code best practice
 > print() and input()
 > maths operators and data types
 > indentation
@@ -33,7 +35,7 @@ Monday
 > dictionaries (non-numeric indexed iterable collections)
 - import, pip, libraries and modules
 - functions
-- if __name__ == '__main__'
+> if __name__ == '__main__'
 
 q - use with Django
 

@@ -9,15 +9,27 @@ def makeInt(x):
     print('this never happens')
 
 # we can ask the user to enter a value
-n = input('Please enter your age: ') # user input is ALWAYS a string
-print(f'user entered: {n} which is {type(n)}')
-# use our function
-age = makeInt(n) 
-print( age )
+age = -99
+# we often use 'while' as a run loop
+count = 0
+while age<0: # while will continue to loop until the condition is met
+    n = input('Please enter your age: ') # user input is ALWAYS a string
+    count += 1 # increments by 1
+    print(f'user entered: {n} which is {type(n)} (attempt {count})')
+    if count == 3:
+        print('no more attempts')
+        break # break will quit out of a while loop (or any loop)
+    # use our function
+    age = makeInt(n) 
+    print( age )
+
+# the range object does NOT persist its values in memory... so it is very performant
+r = range(-9999999, 9999999) # a lot of integers, but they do NOT live in memory
 
 # we may check if values exist within a range
-# range(start, stop-before, step)
+# range(start, stop-before, step) and it works for int only
 if age in range(0,13): # the range object lets us easily handle a range of values
+    # within a string format we use {} to inject dependencies
     print(f'{age} is too young')
 elif age in range(13, 18):
     print(f'{age} needs parental permission')

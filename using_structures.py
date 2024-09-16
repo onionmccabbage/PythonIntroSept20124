@@ -8,7 +8,11 @@ l = [5, 3, 8, False]
 l2 = list((6,5,4,3)) # we make a list from a tuple
 l.append(l2) # we may append any members we wish
 l.insert(4, 'hello') # NB strings may use single or double quotes
-l.remove(3) # locate this value and remove it from the list
+# it is a really good idea to use try-except
+try:
+    l.remove(3) # locate this value and remove it from the list
+except Exception as err:
+    print(err)
 l.pop() # pop off the top-most value
 print(l, type(l))
 # we may slice a list or a tuple

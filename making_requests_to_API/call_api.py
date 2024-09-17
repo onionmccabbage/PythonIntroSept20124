@@ -12,6 +12,17 @@ def fetchData():
     except Exception as err:
         print(err)
 
+def retrieveOnePhoto(n=1): # we may choose to set defaults for the function arguments
+    '''use n to retrieve just a single photo from the API endpoint'''
+    url = f'https://jsonplaceholder.typicode.com/photos/{n}'
+    try:
+        response = requests.get(url) # we make a request to the url using 'get'
+        # this particular API endpoint returns JSON
+        data = response.json() # here we retrieve the returned JSON from the response
+        return data # this time it will be a single Photo
+    except Exception as err:
+        print(err)
+
 if __name__ == '__main__':
-    result = fetchData()
-    print(result) # this is a very large amount of data!!!!
+    result = retrieveOnePhoto(42)
+    print(result)

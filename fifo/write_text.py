@@ -12,9 +12,16 @@ def simpleWriter(n): # we receive an argument incoming as local variables
     except FileExistsError as err:
         print(err)
 
-def elegantWriter():
+def elegantWriter(d):
     '''we can elegently close resourcces when they are no longer needed'''
-    pass
+    try:
+        with open('log.txt', 'at') as fout: # with will let us open a file access object and auto close when done
+            # remember: print() will ALWAYS add a default new line
+            # write does NOT add a new line by default
+            fout.write(f'{d}\n') # write will write our text to the file access object
+
+    except Exception as err:
+        print(err)
 
 if __name__ == '__main__':
     # here we declare avariable within this code-block scope
@@ -24,3 +31,5 @@ if __name__ == '__main__':
     simpleWriter(p)
     # we can refer to a function without actually calling it
     print
+    # exercise the elegant output routine
+    elegantWriter('simple text line ')

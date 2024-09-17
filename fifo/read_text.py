@@ -7,7 +7,16 @@ def readText(): # in Python everything is an object, includuing functions
     fin.close()
     return t
 
+# NB we really should use try-except here...
+
+def elegantRead():
+    '''use with to read back text'''
+    with open('log.txt', 'rt') as fin: # remember: with will auto xlose the file access object
+        e = fin.read() # rad the entire file
+    return e
+
 if __name__ == '__main__':
     readText # no brackets, so here we merely referthe function object (not calling it)
     result = readText() # the brackets call the function
     print(result)
+    print(elegantRead())

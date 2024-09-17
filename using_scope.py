@@ -1,3 +1,6 @@
+# generally we try to avoid poluting the global namescape
+# in practice this means most of our code will exist within functions
+
 # By default everything not in a function is in the global scope
 def doStuff():
     s = 'local' # the variable 's' exists within this scope

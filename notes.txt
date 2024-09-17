@@ -65,6 +65,7 @@ Tuesday
 - debug tools
 - review exercise
 - File input and output
+  - bytefiles
   - elegant close...
 
 Wednesday

@@ -9,7 +9,8 @@ def writeBytes(b):
 
 if __name__ == '__main__':
     # b'' will tell Python to encode the string as bytes
-    my_bytes = b'this will be encoded as bytes'
-    writeBytes(my_bytes)
+    # my_bytes = b'this will be encoded as bytes'
+    # writeBytes(my_bytes)
     # if you need to specify an encoding type...
     other_bytes = 'please encode this'.encode(encoding='UTF16')
+    writeBytes(other_bytes)

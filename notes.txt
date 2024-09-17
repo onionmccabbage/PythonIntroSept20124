@@ -8,6 +8,8 @@ Toby Dussek
 3:00  afternoon break
 4:30  end
 
+The course website
+https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/Programming_in_Python/site/index.html
 All my code will be here: https://github.com/onionmccabbage/PythonIntroSept20124
 
 Python is written in C
@@ -40,15 +42,17 @@ Monday
 q - use with Django
 
 Tuesday
-- how to access course recordings
-  see course website, authenticate with: neueda c0nygre
+> how to access course recordings
+  see course website, authenticate with
+  Username: student
+  Password: Belfast2024
   only available for a week or so
   BIG files
 > quick review of where we got to
 > sys.path
-- venv
+> venv see https://docs.python.org/3/tutorial/venv.html
 > __init__.py - no longer needed (but is needed in Py2)
-- sets
+> sets
 - range, generators
 - comprehensions
 > passing command-line arguments (which are ALWAYS strings)
@@ -61,6 +65,7 @@ Tuesday
 - debug tools
 - review exercise
 - File input and output
+  - elegant close...
 
 Wednesday
 - brief review so far

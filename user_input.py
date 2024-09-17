@@ -6,6 +6,8 @@ def makeInt(x):
         return i # when we reach a return statement, the function will end
     except ValueError as err:
         return err # if there is a problem we return the string of the excetion
+    except Exception as err:
+        pass # we might do something clever here
     print('this never happens')
 
 # we can ask the user to enter a value

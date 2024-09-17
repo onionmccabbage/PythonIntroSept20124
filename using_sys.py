@@ -4,6 +4,8 @@ if __name__ == '__main__':
     ''' explore sys '''
     print(sys.version) # which version of Python
     print(sys.platform) # what platform are we on
+    sys.path.append('c:/mystuff/utils/inhere/ooohlookfoundit')
+    print(sys.path) # a list of everywhere Python will look
     # we ALWAYS receive system argument variables
     # Careful: sys.argv are ALWAYS string
     for s in sys.argv: # sys.argv is a tuple of system arguments

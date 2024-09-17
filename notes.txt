@@ -53,8 +53,8 @@ Tuesday
 > venv see https://docs.python.org/3/tutorial/venv.html
 > __init__.py - no longer needed (but is needed in Py2)
 > sets
-- range, generators
-- comprehensions
+> range, generators
+> comprehensions
 > passing command-line arguments (which are ALWAYS strings)
 > to add libraries to python:
   - python -m ensurepip
@@ -71,11 +71,11 @@ Tuesday
 Wednesday
 - brief review so far
 - functions, *args, **kwargs  
-  - positional arguments and keyword arguments
+  > positional arguments and keyword arguments
 - functions live in classes, which live in modules which live in packages
 - show ternary
 - PEP8 style guide
-- custom generator and yield
+> custom generator and yield
 > global and local scope 
 - data modelling structures: 
     use built-in structures until they do not suit the purpose (then use classes)

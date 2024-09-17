@@ -63,7 +63,7 @@ Tuesday
 > strings with triple quotes
 > exception handling (try-except etc.)
 - debug tools
-- review exercise
+> review exercise
 > File input and output
   > bytefiles
   > elegant close...
@@ -95,6 +95,8 @@ Wednesday
   https://pynative.com/python-exercises-with-solutions/
   the next courses: advanced python then further advanced python
 - end of course feedback
+  - easyretro
+  - internal Ericsson feedack
 
 Links
 - Python official site https://python.org

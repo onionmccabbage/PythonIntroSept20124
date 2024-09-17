@@ -62,7 +62,7 @@ Tuesday
 > using requests (to access web API via HTTP)
 > strings with triple quotes
 > exception handling (try-except etc.)
-- debug tools
+> debug tools
 > review exercise
 > File input and output
   > bytefiles

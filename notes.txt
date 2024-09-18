@@ -73,21 +73,24 @@ Wednesday
 - functions live in classes, which live in modules which live in packages
 > custom generator and yield
 > global and local scope 
-- data modelling structures: 
+> data modelling structures: 
     use built-in structures until they do not suit the purpose (then use classes)
-- Objects and Classes (OOP)
-- __slots__
-- get/set as property decorators @property
-- name mangling (__) and slots
+> Objects and Classes (OOP)
+> __slots__
+> get/set as property decorators @property
+> name mangling (__) and slots
 - properties, methods, __str__
 - intrinsic attributes: __doc__ etc.
 - special operators and overriding
-- inheritance
+> inheritance
 - review exercise
 - ternary operator
 - PEP8 style guide
 - use with Django
-
+  - Django is a fully-featured web content-management system
+  - use the tutorial (including a full featured admin site)
+  - https://docs.djangoproject.com
+- http.server for minimal microservices, flask for basic web services, and Django full-fat web!
 
 - where to go from here:
   https://learnpython.org/

@@ -2,6 +2,7 @@ import class_a
 
 class Equipment(class_a.Weather): # we may inherit from any other object
     '''Equipment needs to monitor temp and wind, and control a/c '''
+    __slots__ = ['__temperaure', '__windspeed', '__name']
     def __init__(self, t, w, name):
         # we call the init method of the parent class
         super().__init__(t,w)

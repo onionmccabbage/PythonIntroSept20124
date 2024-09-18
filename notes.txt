@@ -70,7 +70,7 @@ Wednesday
 > brief review so far
 > functions, *args, **kwargs  
   > positional arguments and keyword arguments
-- functions live in classes, which live in modules which live in packages
+> functions live in classes, which live in modules which live in packages
 > custom generator and yield
 > global and local scope 
 > data modelling structures: 
@@ -87,11 +87,11 @@ Wednesday
 - ternary operator
 - PEP8 style guide
 > Jupyter Notebooks
-- use with Django
+> use with Django
   - Django is a fully-featured web content-management system
   - use the tutorial (including a full featured admin site)
   - https://docs.djangoproject.com
-- http.server for minimal microservices, flask for basic web services, and Django full-fat web!
+> http.server for minimal microservices, flask for basic web services, and Django full-fat web!
 
 - where to go from here:
   https://learnpython.org/

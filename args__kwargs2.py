@@ -12,6 +12,24 @@ def getBoth(*args, **kwargs): # NG positional arguments MUST come before keyword
     print(args)
     print(kwargs)
 
+# in Python you may only declare a function once (there is no overloading)
+def myFn(*args):
+    '''if no arguments are passed, just say hello
+    if one argument is passed, return it directly
+    for two arguemtns, try to add them together
+    for any more than two argument, return them all as a list'''
+    if len(args) == 0:
+        return 'Hello'
+    if len(args)==1:
+        return args[0]
+    if len(args) == 2:
+        try:
+            result = args[0]+args[1]
+            return result
+        except:
+            return 'did not work'
+    return list(args) # convert the tuple to a list
+
 if __name__ == '__main__':
     getPos(5,4,3 ,True, [], {}, None) # the position matters
     getKW(admin=False, age=42, x=4, w=(4,3,2)) # each argument has a keyword

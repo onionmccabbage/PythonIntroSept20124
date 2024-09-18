@@ -1,4 +1,4 @@
-Python Review 3
+Python Review 3 1hr 10min until 2:50
 ===============
 - Alter these instructions to suit your thinking
 - Aim for good architecture (maybe use separate modules, remember 'if __name__...')
@@ -36,6 +36,7 @@ Pass in the 'city' value as a parameter for the API URL
   f'https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1'
 The 'city' could be a sys.argv or user input value, but always provide a default
 
-Use the returned data to populate the temperature in your Weather instance
+Use the returned data to populate the temperature and description in your Weather instance
 The temperature value will be
   response_dict['main']['temp'] (show other data if you wish)
+You may also grab the wind speed

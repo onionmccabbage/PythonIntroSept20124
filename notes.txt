@@ -79,7 +79,7 @@ Wednesday
 > __slots__
 > get/set as property decorators @property
 > name mangling (__) and slots
-> properties, methods, __str__
+> properties, methods, __str__ (dunder)
 > intrinsic attributes: __doc__ etc.
 - special operators and overriding
 > inheritance

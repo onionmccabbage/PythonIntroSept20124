@@ -9,8 +9,13 @@ class Weather():
         '''this initialiser will be called every time we make an instance of this class'''
         self.t = t
         self.w = w
+    # Every object implements __str__ so we override the built-in __str__ with our own
+    def __str__(self):
+        '''when we override __str__ we instruct on how to print'''
+        return f'Weather report: temperature {self.t} wind-speed {self.w}'
 
 if __name__ == '__main__':
-    # we can create isntances of our class
+    # we can create instances of our class
     w1 = Weather(12, 2)
-    print(w1)
+    # remember, print will ALWAYS invoke the __str__ of the object being printed
+    print(w1, w1.t, w1.w)

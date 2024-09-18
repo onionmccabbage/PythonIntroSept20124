@@ -67,8 +67,8 @@ Tuesday
   > elegant close...
 
 Wednesday
-- brief review so far
-- functions, *args, **kwargs  
+> brief review so far
+> functions, *args, **kwargs  
   > positional arguments and keyword arguments
 - functions live in classes, which live in modules which live in packages
 > custom generator and yield

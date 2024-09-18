@@ -30,6 +30,13 @@ def myFn(*args):
             return 'did not work'
     return list(args) # convert the tuple to a list
 
+def moreStuff(x, y, z, a=1, b=True, c=[], *kwargs):
+    pass
+def yeteStuff(x, y, z, *args, **kwargs):
+    pass
+
+
+
 if __name__ == '__main__':
     getPos(5,4,3 ,True, [], {}, None) # the position matters
     getKW(admin=False, age=42, x=4, w=(4,3,2)) # each argument has a keyword

@@ -83,7 +83,7 @@ Wednesday
 > intrinsic attributes: __doc__ etc.
 - special operators and overriding
 > inheritance
-- review exercise
+> review exercise
 - ternary operator
 - PEP8 style guide
 > Jupyter Notebooks

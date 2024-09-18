@@ -3,7 +3,7 @@
 
 # in Python everything is an object, including classes
 # By convention we use CamelCase but Python doesnt care
-class Weather():
+class Weather(): # or class Weather: or class Weather(object)
     '''this class will encapsulate temperature and wind-speed'''
     __slots__ = ['__temperature', '__windspeed']
     def __init__(self, t, w): # we must provide 'self' for any class methods

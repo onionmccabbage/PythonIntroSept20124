@@ -34,3 +34,7 @@ if __name__ == '__main__':
     getPos(5,4,3 ,True, [], {}, None) # the position matters
     getKW(admin=False, age=42, x=4, w=(4,3,2)) # each argument has a keyword
     getBoth(True, [4,3,2], {'n':'Ethel'}, 4,3,2,'Working', x=3, y=4, temp=59)
+    print(myFn())
+    print(myFn('wow'))
+    print(myFn('one', 'two'))
+    print(myFn(6,6,3,3,7,9,6,9,3))

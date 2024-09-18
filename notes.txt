@@ -81,11 +81,11 @@ Wednesday
 > name mangling (__) and slots
 > properties, methods, __str__ (dunder)
 > intrinsic attributes: __doc__ etc.
-- special operators and overriding
+> special operators and overriding
 > inheritance
 > review exercise
-- ternary operator
-- PEP8 style guide
+> ternary operator
+> PEP8 style guide
 > Jupyter Notebooks
 > use with Django
   - Django is a fully-featured web content-management system
